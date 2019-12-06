@@ -1,0 +1,22 @@
+.main__nav ul {
+  list-style-type: none;
+  display: flex;
+}
+.main__nav a {
+  text-decoration: none;
+  display: inline-block;
+  color: #777;
+  padding: 0.7rem 1.4rem;
+  border-bottom: 0.15em solid #fff;
+  font-size: 0.8em;
+  transition: 0.2s ease;
+}
+.main__nav a.active {
+  color: #222;
+  border-bottom: 0.15em solid #5eb5e6;
+}
+.main__nav a:hover {
+  color: #222;
+  border-bottom: 0.15em solid #5eb5e6;
+  opacity: 0.9;
+}
