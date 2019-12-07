@@ -30,7 +30,7 @@ header {
 }
 
 main {
-  padding: 0 10vw;
+  padding: 1.4em 10vw;
 
   display: flex;
   flex-grow: 1;
@@ -38,6 +38,7 @@ main {
 }
 .content {
   flex-grow: 3;
+  margin: 0 1.4em;
   /* background-color: palevioletred; */
 }
 .aside-left {

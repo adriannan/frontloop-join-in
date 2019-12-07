@@ -1,0 +1,139 @@
+/* 5eb5e6 */
+.aside-left {
+  max-width: 200px;
+}
+.aside__profile {
+  background-color: #fff;
+}
+.profile__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5em;
+  border: 1px solid #eee;
+}
+.profile__links {
+  padding: 1.5em;
+  border: 1px solid #eee;
+}
+.profile__stats,
+.profile__pdf {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #eee;
+}
+.profile__links p,
+.profile__stats span {
+  font-size: 1em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #999;
+}
+.profile__stats span {
+  text-align: center;
+}
+.profile__stats p {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  padding: 1.5em;
+}
+.profile__stats p:first-child {
+  border-right: 1px solid #eee;
+}
+.profile__stats span:first-child {
+  font-weight: bold;
+  color: black;
+}
+.profile__stats span {
+  flex-basis: 1;
+  text-align: center;
+}
+.profile__info,
+.profile__stats,
+.profile__links:not(.profile__pdf) {
+  border-bottom: none;
+}
+
+.profile__info img {
+  width: 6em;
+  height: 6em;
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+.profile__info h5 {
+  padding: 0.3em;
+}
+.btn__follow,
+.btn__connect {
+  width: 90%;
+  /* height: 3em; */
+  font-size: 0.9em;
+  padding: 0.5em;
+  border-radius: 2em;
+}
+.btn__follow {
+  background-color: #5eb5e6;
+  border: 1px solid #5eb5e6;
+  margin: 0.5em 0;
+  color: #fff;
+}
+.btn__follow:hover {
+  background-color: #369fd8;
+
+  border: 1px solid #369fd8;
+}
+.btn__connect:hover {
+  background-color: #f4fbff;
+}
+.btn__connect {
+  background-color: #fff;
+  color: #5eb5e6;
+  border: 1px solid #5eb5e6;
+}
+
+.btn__connect .material-icons {
+  font-size: 1em;
+  padding-left: 0.5em;
+  position: relative;
+  top: 0.2em;
+}
+.profile__info p,
+.profile__stats span:nth-child(2n),
+.profile__links a,
+.profile__links .material-icons,
+.profile__pdf p,
+.profile__pdf .material-icons {
+  color: #999;
+  font-size: 0.75em;
+}
+.profile__info h5 {
+  font-weight: normal;
+}
+.profile__links {
+  text-align: left;
+}
+
+.profile__links a {
+  text-decoration: none;
+  margin-left: 0.5em;
+}
+.profile__links a:hover {
+  text-decoration: underline;
+}
+.profile__pdf {
+  padding: 1.5em;
+  font-size: 1.1em;
+}
+.profile__pdf p {
+  line-height: 0.9em;
+}
+.profile__pdf .material-icons {
+  margin-right: 0.5em;
+}
+.profile__pdf:hover .material-icons {
+  transform: translateY(-0.15em);
+}

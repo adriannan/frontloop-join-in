@@ -1,0 +1,17 @@
+.content__posts {
+  display: flex;
+  /* flex-direction: column; */
+}
+.post {
+  /* position: relative; */
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: column;
+}
+.post__img {
+  /* position: absolute; */
+  /* width: 100%; */
+  /* height: 100%; */
+  width: 10em;
+  height: 10em;
+}

@@ -4,7 +4,7 @@ import "../styles/navigation.css";
 
 const nav = [
   { name: "Posts", path: "/", exact: true },
-  { name: "Background", path: "/backgrounds" },
+  { name: "Background", path: "/background" },
   { name: "Recommendations", path: "/recommendations" },
   { name: "Following", path: "following" }
 ];
