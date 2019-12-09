@@ -23,11 +23,33 @@ const postsList = [
     title: "Good news you might have noticed",
     date: "February 19, 2016"
   }
+  // {
+  //   id: 4,
+  //   img: img4,
+  //   title: "Good newsyou Caraboon!",
+  //   date: "Februuuury 19, 2016"
+  // }
 ];
 
 const Posts = () => {
   const post = postsList.map(post => <Post id={post.id} {...post} />);
-  return <section className="content__posts">{post}</section>;
+
+  return (
+    <section className="content__posts">
+      <div className="posts__header">
+        <h3>posts</h3>
+        <p>
+          <button className="btn">
+            <i class="material-icons">keyboard_arrow_left</i>
+          </button>
+          <button>
+            <i class="material-icons">keyboard_arrow_right</i>
+          </button>
+        </p>
+      </div>
+      <div className="posts__main">{post}</div>
+    </section>
+  );
 };
 
 export default Posts;

@@ -74,10 +74,10 @@
   border-right: 1px solid #eee;
 }
 
-.search__input:focus,
+/* .search__input:focus,
 .search__btn:focus {
   outline: none;
-}
+} */
 .search__input {
   /* background-color: #fff; */
   /* background-color: lightblue; */

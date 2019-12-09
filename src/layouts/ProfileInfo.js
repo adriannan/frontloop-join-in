@@ -7,8 +7,8 @@ const ProfileInfo = () => {
     <div className="aside__profile">
       <div className="profile__info">
         <img src={avatarBG}></img>
-        <h4>Bill Gates</h4>
-        <h5>Microsoft Founder</h5>
+        <h3>Bill Gates</h3>
+        <h4>Microsoft Founder</h4>
         <p>Greater Seattle Area</p>
         <button className="btn__follow">Follow</button>
         <button className="btn__connect">

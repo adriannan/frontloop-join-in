@@ -1,12 +1,10 @@
 import React, { Component } from "react";
 import "../styles/App.css";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from "./Header";
-import Navigation from "./Navigation";
-import ProfileInfo from "./ProfileInfo";
-import Aside from "./Aside";
-import Content from "./Content";
+
 import Footer from "./Footer";
+import Home from "./Home";
 
 class App extends Component {
   render() {
@@ -14,12 +12,10 @@ class App extends Component {
       <Router>
         <div className="app">
           <header>{<Header />}</header>
-          <nav className="main__nav">{<Navigation />}</nav>
-          <main>
-            <aside className="aside-left">{<ProfileInfo />}</aside>
-            <section className="content">{<Content />}</section>
-            <aside className="aside-right">{<Aside />}</aside>
-          </main>
+          <Route
+            path={"/(|background|following|recommendations)/"}
+            component={Home}
+          />
           <footer>{<Footer />}</footer>
         </div>
       </Router>
