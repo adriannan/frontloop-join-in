@@ -1,12 +1,17 @@
+.content {
+  width: 100%;
+}
 .content__posts,
 .content__bckg,
-.content__recom {
+.content__recom,
+.content__follow {
   border: 1px solid #eee;
   background-color: #fff;
 }
 .posts__header,
 .bckg__header,
-.recom__header {
+.recom__header,
+.follow__header {
   border-bottom: 1px solid #eee;
   font-size: 0.8em;
   display: flex;
@@ -31,7 +36,8 @@
 }
 
 .posts__main,
-.recom__main {
+.recom__main,
+.follow__main {
   display: flex;
   justify-content: space-between;
   padding: 1.3rem;
@@ -278,4 +284,68 @@
 .bckg__int span:hover {
   background-color: #ddd;
   text-decoration: underline;
+}
+
+.follow {
+  width: 25%;
+}
+.follow__img {
+  overflow: hidden;
+  max-width: 8em;
+  max-height: 8em;
+  border: 1px solid #eee;
+}
+.follow__img img {
+  width: 100%;
+  height: 100%;
+  padding: 1em 1.5em;
+}
+.follow a {
+  text-decoration: none;
+}
+.follow a:hover {
+  text-decoration: underline;
+}
+.follow__tit {
+  color: #000;
+  font-weight: normal;
+  font-size: 1em;
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+}
+
+.follow__btn {
+  background: #fff;
+  border: none;
+  color: #5eb5e6;
+  font-size: 0.9em;
+}
+.follow__btn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.follow__btn span {
+  display: inline-block;
+  width: 1.4em;
+  height: 1.4em;
+  line-height: 1.1em;
+  border: 1px solid #5eb5e6;
+  border-radius: 50%;
+  margin-right: 0.5em;
+}
+.follow__btn-more {
+  display: inline-block;
+  font-size: 0.9em;
+  background-color: #fff;
+  color: #5eb5e6;
+  border: 1px solid #5eb5e6;
+  border-radius: 2em;
+  cursor: pointer;
+  margin: 0 0 1.3rem 1.3rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.follow__btn-more:hover {
+  background-color: #f4fbff;
 }
