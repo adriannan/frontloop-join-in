@@ -9,7 +9,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <>
+    <div className="header">
       <div className="header__logo">
         <NavLink to="/">
           <img src={logo} alt="logo" />
@@ -23,7 +23,7 @@ const Header = () => {
           <img src={avatar} alt="avatar" />
         </NavLink>
       </div>
-    </>
+    </div>
   );
 };
 
