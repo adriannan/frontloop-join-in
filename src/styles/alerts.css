@@ -1,0 +1,99 @@
+.invite__alert-wrap {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  /* top: 0; */
+  /* right: 0; */
+  /* overflow: hidden; */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.invite__alert {
+  background-color: #fff;
+  max-width: 550px;
+  margin: 0 auto;
+  margin-top: 3em;
+  position: relative;
+}
+.invite__btn-dismiss {
+  position: absolute;
+  top: 1rem;
+  right: 0.6rem;
+  padding: 0.4rem;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  color: #555;
+}
+.invite__btn-dismiss:hover {
+  background-color: #efefef;
+  color: #222;
+}
+
+.invite__tit {
+  font-weight: normal;
+  padding: 1.2rem;
+  font-size: 1.4em;
+}
+
+.invite__txt,
+.invite__txt-msg {
+  padding: 1.2rem;
+  line-height: 1.4em;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.invite__txt-msg {
+  font-size: 0.9em;
+}
+.invite__txt-msg p:first-child {
+  color: #555;
+  margin-bottom: 1em;
+}
+.invite__txt-msg textarea {
+  width: 100%;
+  height: 8em;
+  margin-top: 0.5em;
+  font-size: 0.9rem;
+  padding: 0.5em;
+}
+
+.invite__btns {
+  padding: 0.8rem;
+  text-align: right;
+  /* position: relative; */
+}
+.invite__btn-add,
+.invite__btn-send,
+.invite__btn-cancel {
+  font-size: 1em;
+  padding: 0.5em;
+  margin-right: 0.5em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+}
+.invite__btn-add,
+.invite__btn-cancel {
+  border: 1px solid #555;
+  color: #555;
+}
+.invite__btn-add:hover,
+.invite__btn-cancel:hover {
+  background-color: #efefef;
+  border: 1px solid #222;
+  color: #222;
+}
+.invite__btn-send {
+  background-color: #0072b1;
+  border: 1px solid #0072b1;
+  color: #fff;
+}
+.invite__btn-send:hover {
+  background-color: #005e91;
+  border: 1px solid #005e91;
+  color: #fff;
+}
+/* body {
+  overflow: hidden;
+} */
