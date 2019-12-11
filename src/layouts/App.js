@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "../styles/App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "./Header";
-
 import Footer from "./Footer";
 import Home from "./Home";
 import Error from "./Error";
