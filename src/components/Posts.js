@@ -35,7 +35,7 @@ const Posts = () => {
   const post = postsList.map(post => <Post id={post.id} {...post} />);
 
   return (
-    <section className="content__posts">
+    <section className="content__posts" id="posts">
       <div className="posts__header">
         <h3>posts</h3>
         <p>

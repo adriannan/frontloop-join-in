@@ -23,3 +23,30 @@
   border-bottom: 0.15em solid #5eb5e6;
   opacity: 0.9;
 }
+.main__nav .nav-fixed {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+
+  z-index: 999;
+  opacity: 0.9;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.3s opacity linear;
+}
+.nav-fixed::after {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: -35%;
+  background-color: #fff;
+  width: 200%;
+  content: "";
+  height: 48px;
+  z-index: -1;
+  transition: 3s linear;
+}
+.nav-fixed a {
+  transform: scale(0.9);
+  transition: 0.3s linear;
+}

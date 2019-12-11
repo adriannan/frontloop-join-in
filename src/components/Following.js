@@ -32,7 +32,7 @@ const Following = () => {
   const follow = follows.map(follow => <Follow id={follow.id} {...follow} />);
 
   return (
-    <section className="content__follow">
+    <section className="content__follow" id="following">
       <div className="follow__header">
         <h3>following</h3>
       </div>

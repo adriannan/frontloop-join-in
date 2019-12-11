@@ -8,7 +8,7 @@ import logo2 from "../images/logo-youtube.png";
 
 const Background = () => {
   return (
-    <section className="content__bckg">
+    <section className="content__bckg scroll-with-offset" id="background">
       <div className="bckg__header">
         <h3>background</h3>
       </div>

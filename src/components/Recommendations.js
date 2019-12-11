@@ -1,5 +1,4 @@
 import React from "react";
-import Post from "./Post";
 import img1 from "../images/avatar.jpg";
 import img2 from "../images/avatar2.jpg";
 import img3 from "../images/avatar3.jpg";
@@ -44,7 +43,7 @@ const Recommendations = () => {
   ));
 
   return (
-    <section className="content__recom">
+    <section className="content__recom" id="recommendations">
       <div className="recom__header">
         <h3>recommendations</h3>
         <p>
