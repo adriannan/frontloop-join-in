@@ -11,9 +11,9 @@ const Recommendation = ({ txt, img, person, company }) => {
           {" "}
           <img src={img} alt="avatar" className="rec__img"></img>{" "}
         </a>
-        <h3 className="rec__name">
+        <span className="rec__name">
           <a href="#">{person}</a>
-        </h3>
+        </span>
         <span className="rec__company">
           <a href="#">{company}</a>
         </span>
