@@ -61,7 +61,6 @@
 .invite__btns {
   padding: 0.8rem;
   text-align: right;
-  /* position: relative; */
 }
 .invite__btn-add,
 .invite__btn-send,
@@ -75,6 +74,8 @@
 }
 .invite__btn-add,
 .invite__btn-cancel {
+  background-color: #fff;
+
   border: 1px solid #555;
   color: #555;
 }

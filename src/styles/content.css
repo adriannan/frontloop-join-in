@@ -24,7 +24,7 @@
 }
 .posts__header button,
 .recom__header button {
-  border: 1px solid royalblue;
+  background-color: #fff;
   border: 1px solid black;
   margin-left: 0.3rem;
   width: 1.8rem;

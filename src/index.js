@@ -2,7 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./styles/index.css";
 import App from "./layouts/App";
+import smoothscroll from "smoothscroll-polyfill";
 
+smoothscroll.polyfill();
 ReactDOM.render(<App />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change

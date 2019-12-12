@@ -78,10 +78,12 @@
 .search__btn:focus {
   outline: none;
 } */
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+}
+
 .search__input {
-  /* background-color: #fff; */
-  /* background-color: lightblue; */
-  /* display: inline-block; */
   padding: 0.8em;
   border: 1px solid #ddd;
   border-radius: 3em;

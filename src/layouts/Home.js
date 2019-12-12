@@ -35,6 +35,7 @@ class Home extends Component {
   };
   handleClickConnect = () => {
     if (this.state.connect) return;
+    window.scrollTo(0, 0);
     document.querySelector("body").style.overflow = "hidden";
     this.setState({
       showAlert: true
