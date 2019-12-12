@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
 import "../styles/navigation.css";
 
 // const nav = [
@@ -19,10 +18,7 @@ class Navigation extends Component {
   state = {
     navFixed: false
   };
-  // handleScroll() {
-  //   const curPos = window.scrollY;
-  //   console.log(curPos);
-  // }
+
   componentDidMount() {
     const nav = document.querySelector(".main__nav");
     window.addEventListener("scroll", () => {
