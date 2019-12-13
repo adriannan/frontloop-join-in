@@ -32,7 +32,7 @@
   font-size: 0.9em;
   display: inline-block;
   width: 100%;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.5rem;
 }
 .login__form input,
 .register__form input,
@@ -89,4 +89,9 @@
   color: crimson;
   font-size: 0.9em;
   position: absolute;
+}
+.login__form .form_error-input,
+.register__form .form_error-input {
+  border: 2px solid crimson;
+  /* transition: 0.2s ease-in-out; */
 }
