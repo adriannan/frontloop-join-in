@@ -44,6 +44,9 @@
   justify-content: space-between;
   padding: 1.3rem;
 }
+.follow__main {
+  flex-wrap: wrap;
+}
 .bckg__main {
   padding: 1.3rem;
 }
@@ -290,12 +293,16 @@
 
 .follow {
   width: 25%;
+  margin-bottom: 1.5em;
 }
 .follow__img {
   overflow: hidden;
+  min-height: 4em;
   max-width: 8em;
   max-height: 8em;
   border: 1px solid #eee;
+  display: flex;
+  align-items: center;
 }
 .follow__img img {
   width: 100%;

@@ -2,9 +2,6 @@
   width: 100vw;
   height: 100vh;
   position: absolute;
-  /* top: 0; */
-  /* right: 0; */
-  /* overflow: hidden; */
   background-color: rgba(0, 0, 0, 0.5);
 }
 .invite__alert {
@@ -95,6 +92,3 @@
   border: 1px solid #005e91;
   color: #fff;
 }
-/* body {
-  overflow: hidden;
-} */
