@@ -1,8 +1,10 @@
 {
+  "homepage": "https://adriannan.github.io/frontloop-join-in",
   "name": "css-2-10-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^2.1.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
@@ -10,6 +12,8 @@
     "smoothscroll-polyfill": "^0.4.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
