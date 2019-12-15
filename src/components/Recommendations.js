@@ -3,7 +3,6 @@ import img1 from "../images/avatar.jpg";
 import img2 from "../images/avatar2.jpg";
 import img3 from "../images/avatar3.jpg";
 import Recommendation from "./Recommendation";
-// import img4 from "../images/avatar3.jpg";
 
 const recomList = [
   {

@@ -3,7 +3,6 @@
   display: flex;
   flex-grow: 1;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   margin-top: 3rem;
 }
@@ -93,5 +92,4 @@
 .login__form .form_error-input,
 .register__form .form_error-input {
   border: 2px solid crimson;
-  /* transition: 0.2s ease-in-out; */
 }

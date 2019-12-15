@@ -66,9 +66,6 @@ const follows = [
     title: "Amazon"
   }
 ];
-const follow = follows.map(follow => <Follow id={follow.id} {...follow} />);
-
-let followsArr = [];
 
 class Following extends Component {
   state = {
@@ -79,16 +76,6 @@ class Following extends Component {
       showAll: !this.state.showAll
     });
   };
-  // followShow = () => {
-  //   for (let i = 0; i < this.state.showingPosts; i++) {
-  //     {
-  //       followsArr.push(follow[i]);
-  //     }
-  //   }
-  // };
-  // componentWillMount() {
-  //   this.followShow();
-  // }
 
   render() {
     const following = follows.map(follow => (
@@ -100,7 +87,6 @@ class Following extends Component {
         <div className="follow__header">
           <h3>following</h3>
         </div>
-        {/* <div className="follow__main">{follow}</div> */}
         <div className="follow__main">
           {this.state.showAll ? following : follow}
         </div>

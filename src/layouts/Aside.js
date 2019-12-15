@@ -31,8 +31,7 @@ const Aside = () => {
       <h3 className="aside__tit">more influencers</h3>
       <div className="aside__infl">
         <button className="infl__btn-left">
-          {`<`}
-          {/* <i class="material-icons">keyboard_arrow_left</i> */}
+          <i class="material-icons">keyboard_arrow_left</i>
         </button>
         <a href="#">
           <img src={img3} className="infl__img"></img>
@@ -40,8 +39,7 @@ const Aside = () => {
           <span className="infl__company">Apple</span>
         </a>
         <button className="infl__btn-right">
-          {`>`}
-          {/* <i class="material-icons">keyboard_arrow_right</i> */}
+          <i class="material-icons">keyboard_arrow_right</i>
         </button>
       </div>
     </div>
@@ -49,18 +47,3 @@ const Aside = () => {
 };
 
 export default Aside;
-
-{
-  /* <p className="rec__author">
-  <a href="#">
-    {" "}
-    <img src={img} alt="avatar" className="rec__img"></img>{" "}
-  </a>
-  <h3 className="rec__name">
-    <a href="#">{person}</a>
-  </h3>
-  <span className="rec__company">
-    <a href="#">{company}</a>
-  </span>
-</p>; */
-}

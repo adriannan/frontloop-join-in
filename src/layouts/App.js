@@ -9,9 +9,9 @@ import {
 import Header from "./Header";
 import Footer from "./Footer";
 import Home from "./Home";
-import Error from "./Error";
-import LoginPage from "./LoginPage";
-import RegisterPage from "./RegisterPage";
+import Error from "../pages/Error";
+import LoginPage from "../pages/LoginPage";
+import RegisterPage from "../pages/RegisterPage";
 
 const permission = false;
 

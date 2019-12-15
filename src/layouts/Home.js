@@ -42,6 +42,7 @@ class Home extends Component {
     });
   };
   handleClickSend = e => {
+    document.querySelector("body").style.overflow = "scroll";
     document.querySelector(".invite__alert-wrap").style.display = "none";
     this.setState({
       connect: true

@@ -2,10 +2,6 @@ import React from "react";
 import "../styles/alerts.css";
 
 const InviteMsg = props => {
-  // const handleClickCancel = () => {
-  //   document.querySelector(".invite__alert-wrap").style.display = "none";
-  // };
-
   return (
     <section className="invite__alert-wrap">
       <form className="invite__alert" onSubmit={props.submitMsg}>

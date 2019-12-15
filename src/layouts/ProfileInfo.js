@@ -3,9 +3,6 @@ import avatarBG from "../images/bill-gates-avatar.png";
 import "../styles/aside.css";
 
 const ProfileInfo = props => {
-  // const handleClick = () => {
-  //   alert("ok");
-  // };
   return (
     <div className="aside__profile">
       <div className="profile__info">
@@ -55,9 +52,6 @@ const ProfileInfo = props => {
         </p>
         <p>
           <i class="material-icons">language</i>
-
-          {/* <i class="material-icons">public</i> */}
-
           <a href="https://www.billgates.com.com">billgates.com</a>
         </p>
       </div>

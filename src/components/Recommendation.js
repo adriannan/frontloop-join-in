@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/content.css";
-import Recommendations from "./Recommendations";
 
 const Recommendation = ({ txt, img, person, company }) => {
   return (
