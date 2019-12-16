@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/frontloop-join-in/static/css/main.ca106bf3.chunk.css",
-    "main.js": "/frontloop-join-in/static/js/main.17b3a689.chunk.js",
-    "main.js.map": "/frontloop-join-in/static/js/main.17b3a689.chunk.js.map",
+    "main.js": "/frontloop-join-in/static/js/main.852fadce.chunk.js",
+    "main.js.map": "/frontloop-join-in/static/js/main.852fadce.chunk.js.map",
     "runtime-main.js": "/frontloop-join-in/static/js/runtime-main.c6762410.js",
     "runtime-main.js.map": "/frontloop-join-in/static/js/runtime-main.c6762410.js.map",
     "static/js/2.1d027c7a.chunk.js": "/frontloop-join-in/static/js/2.1d027c7a.chunk.js",
     "static/js/2.1d027c7a.chunk.js.map": "/frontloop-join-in/static/js/2.1d027c7a.chunk.js.map",
     "index.html": "/frontloop-join-in/index.html",
-    "precache-manifest.61cbb0e4a4a7e2ea23e1f36d8b35b206.js": "/frontloop-join-in/precache-manifest.61cbb0e4a4a7e2ea23e1f36d8b35b206.js",
+    "precache-manifest.803eef2669988155155c93ecdafd7451.js": "/frontloop-join-in/precache-manifest.803eef2669988155155c93ecdafd7451.js",
     "service-worker.js": "/frontloop-join-in/service-worker.js",
     "static/css/main.ca106bf3.chunk.css.map": "/frontloop-join-in/static/css/main.ca106bf3.chunk.css.map",
     "static/media/article1.jpg": "/frontloop-join-in/static/media/article1.39c7a8a4.jpg",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.c6762410.js",
     "static/js/2.1d027c7a.chunk.js",
     "static/css/main.ca106bf3.chunk.css",
-    "static/js/main.17b3a689.chunk.js"
+    "static/js/main.852fadce.chunk.js"
   ]
 }
