@@ -27,15 +27,7 @@ class App extends Component {
               component={Home}
             />
             <Route
-              path="/profile"
-              render={() => (permission ? Home : <Redirect to={"/login"} />)}
-            />
-            <Route
-              path="/connections"
-              render={() => (permission ? Home : <Redirect to={"/login"} />)}
-            />
-            <Route
-              path="/interest"
+              path={"/(|profile|connections|interest)/"}
               render={() => (permission ? Home : <Redirect to={"/login"} />)}
             />
 
