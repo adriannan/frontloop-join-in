@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import logo from "../images/logo.png";
 import "../styles/login.css";
 
@@ -226,7 +227,7 @@ class RegisterPage extends Component {
           )}
         </form>
         <p className="form__footer">
-          Already on JoinIn? <a href="/login">Sing in</a>
+          Already on JoinIn? <Link to="/login">Sing in</Link>
         </p>
       </section>
     );

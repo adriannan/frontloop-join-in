@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import logo from "../images/logo.png";
 import "../styles/login.css";
 
@@ -29,7 +30,6 @@ class LoginPage extends Component {
   handleSubmit = e => {
     e.preventDefault();
     const validation = this.formValidation();
-
     if (validation.correct) {
       this.setState({
         username: "",
@@ -55,13 +55,14 @@ class LoginPage extends Component {
     if (this.state.username.length !== 0) {
       username_length = true;
     }
-    if (this.state.username == 0) {
+    if (this.state.username === "") {
       username = true;
+      console.log(this.state.username);
     }
     if (this.state.password.length !== 0) {
       password_length = true;
     }
-    if (this.state.password == 0) {
+    if (this.state.password === "") {
       password = true;
     }
     if (username && username_length && password && password_length) {
@@ -114,7 +115,7 @@ class LoginPage extends Component {
           <button className="login__btn">Sign in</button>
         </form>
         <p className="form__footer">
-          New to JoinIn? <a href="/register">Join now</a>
+          New to JoinIn? <Link to="/register">Join now</Link>
         </p>
       </section>
     );
