@@ -76,6 +76,7 @@ class Home extends Component {
     });
   };
   handleClickSendMsg = e => {
+    document.querySelector("body").style.overflow = "scroll";
     this.setState({
       connect: true,
       showAlert: false,
