@@ -18,16 +18,18 @@ const permission = false;
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="app">
           <header>{<Header />}</header>
           <Switch>
             <Route
-              path={"/(|background|following|recommendations)/"}
+              // path={"/(|background|following|recommendations)/"}
+              path="/"
+              exact
               component={Home}
             />
             <Route
-              path={"/(|profile|connections|interest)/"}
+              path={"/(profile|connections|interest)/"}
               render={() => (permission ? Home : <Redirect to={"/login"} />)}
             />
 
